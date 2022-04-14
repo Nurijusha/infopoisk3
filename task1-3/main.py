@@ -1,9 +1,6 @@
 import requests
-from os.path import join, exists
 from pathlib import Path
 
-# from - https://www.bbc.com/mediacentre/speeches/
-# Array.prototype.slice.call(document.getElementsByClassName('link')).map(a => a.href)
 from bs4 import BeautifulSoup
 
 links = ['https://skorobogatov.livejournal.com/90782.html',
